@@ -32,7 +32,7 @@ public class PruebasEntities {
         EntityManager em = emf.createEntityManager();
         EntityTransaction tx = em.getTransaction();
         Empleado empleado = new Empleado();
-        empleado.setHola("YESSSSSSSSSSSSSSSLOLOGRE");
+        empleado.setHola("YESSSSSSSSSSSSSSS");
         tx.begin();
         em.persist(empleado);
         tx.commit();
