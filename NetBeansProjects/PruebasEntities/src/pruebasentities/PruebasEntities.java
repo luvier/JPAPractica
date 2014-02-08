@@ -60,7 +60,7 @@ public class PruebasEntities {
         Correspondencia nuevaCorrespondenciForzada = (Correspondencia) nuevaCorrespondencia;
         nuevaCorrespondenciForzada.setAsunto("HOLAAA");
         nuevaCorrespondenciForzada.setDescripcion("HOLAAAAAAAAAA");
-        nuevaCorrespondenciForzada.setEstado(EstadoDocumento.PENDIENTE);
+        nuevaCorrespondenciForzada.setEstado(EstadoDocumento.ENVIADO);
         nuevaCorrespondenciForzada.setPrefijo(Prefijo.FI);
         nuevaCorrespondenciForzada.setPropietario(Propietario.IVAN_ALTAMAR);
         nuevaCorrespondenciForzada.setMemorandu("AJAAAAA");
