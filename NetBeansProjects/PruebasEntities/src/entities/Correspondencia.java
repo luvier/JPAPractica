@@ -16,7 +16,7 @@ import javax.persistence.Enumerated;
 @DiscriminatorValue("Correspondencia")
 public class Correspondencia extends Documento implements Serializable{
 
-    
+    @Enumerated(EnumType.STRING)
     private Propietario propietario;
     @Enumerated(EnumType.STRING)
     private Prefijo prefijo;
