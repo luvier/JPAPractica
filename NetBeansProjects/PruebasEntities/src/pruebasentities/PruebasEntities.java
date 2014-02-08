@@ -61,7 +61,7 @@ public class PruebasEntities {
         nuevaCorrespondenciForzada.setAsunto("HOLAAA");
         nuevaCorrespondenciForzada.setDescripcion("HOLAAAAAAAAAA");
         nuevaCorrespondenciForzada.setEstado(EstadoDocumento.PENDIENTE);
-        nuevaCorrespondenciForzada.setPrefijo(Prefijo.FR);
+        nuevaCorrespondenciForzada.setPrefijo(Prefijo.FS);
         nuevaCorrespondenciForzada.setPropietario(Propietario.IVAN_ALTAMAR);
         nuevaCorrespondenciForzada.setMemorandu("AJAAAAA");
         
